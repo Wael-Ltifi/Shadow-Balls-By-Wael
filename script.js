@@ -39,7 +39,7 @@ function triggerBallReactions(mouseX, mouseY) {
         const bubble = ball.querySelector('.speech-bubble');
 
         if (distance < 60) {
-            bubble.textContent = "SAYEB ZEBI !!!";
+            bubble.textContent = "SAYEB **** !!!";
             bubble.className = 'speech-bubble danger';
             bubble.style.display = 'block';
         } else if (distance < 120) {
@@ -47,12 +47,12 @@ function triggerBallReactions(mouseX, mouseY) {
             bubble.className = 'speech-bubble warning';
             bubble.style.display = 'block';
         } else if (distance < 200) {
-            bubble.textContent = "ma norgdouch !";
+            bubble.textContent = "ma nor9douch m3akom ha llila el kalba !";
             bubble.className = 'speech-bubble mild';
             bubble.style.display = 'block';
         }
         else if (distance < 250) {
-            bubble.textContent = "chfamma ya zzebi !!?";
+            bubble.textContent = "chfamma ya **** !!?";
             bubble.className = 'speech-bubble mild';
             bubble.style.display = 'block';
         }
